@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site moderno e responsivo inspirado em portais institucionais.">
+  <title>Sociedade — Portal Oficial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="#inicio" class="logo"><span>✦</span> SOCIEDADE</a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <nav class="menu" id="menu">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="#contato" class="nav-button">Fale conosco</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow">PORTAL OFICIAL</span>
+        <h1>Informação, comunidade e <em>propósito.</em></h1>
+        <p>Um espaço moderno para apresentar sua organização, compartilhar novidades e aproximar pessoas.</p>
+        <div class="hero-actions">
+          <a href="#sobre" class="btn primary">Conheça nossa história</a>
+          <a href="#noticias" class="btn secondary">Ver novidades →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div><strong>+10</strong><span>Anos de história</span></div>
+        <div><strong>+500</strong><span>Pessoas alcançadas</span></div>
+        <div><strong>+30</strong><span>Projetos realizados</span></div>
+        <div><strong>24h</strong><span>Conexão com a comunidade</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container two-columns">
+        <div>
+          <span class="eyebrow dark">QUEM SOMOS</span>
+          <h2>Uma presença feita para <span>conectar.</span></h2>
+        </div>
+        <div class="section-text">
+          <p>Este modelo foi pensado para organizações, comunidades e projetos que querem ter uma presença digital elegante, clara e profissional.</p>
+          <p>Troque os textos, imagens, cores e informações pelos dados do seu próprio projeto. Tudo está organizado para facilitar futuras alterações.</p>
+          <a href="#contato" class="text-link">Saiba mais sobre nós →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light" id="noticias">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow dark">ATUALIZAÇÕES</span>
+            <h2>Últimas <span>notícias</span></h2>
+          </div>
+          <a href="#noticias" class="text-link">Ver todas →</a>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-image image-one"><span>NOTÍCIA</span></div>
+            <div class="card-body">
+              <small>02 OUT 2026</small>
+              <h3>Novidades e acontecimentos da nossa comunidade</h3>
+              <p>Publique aqui seus principais comunicados e novidades.</p>
+              <a href="#" class="read-more">Ler notícia →</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image image-two"><span>PROJETO</span></div>
+            <div class="card-body">
+              <small>28 SET 2026</small>
+              <h3>Conheça nosso novo projeto</h3>
+              <p>Apresente iniciativas, eventos e ações importantes.</p>
+              <a href="#" class="read-more">Ler notícia →</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image image-three"><span>COMUNIDADE</span></div>
+            <div class="card-body">
+              <small>20 SET 2026</small>
+              <h3>Juntos, construímos novas histórias</h3>
+              <p>Compartilhe momentos e informações com seu público.</p>
+              <a href="#" class="read-more">Ler notícia →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="galeria">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow dark">MOMENTOS</span>
+            <h2>Nossa <span>galeria</span></h2>
+          </div>
+        </div>
+        <div class="gallery">
+          <div class="gallery-item tall"><div>Imagem 01</div></div>
+          <div class="gallery-item"><div>Imagem 02</div></div>
+          <div class="gallery-item"><div>Imagem 03</div></div>
+          <div class="gallery-item"><div>Imagem 04</div></div>
+          <div class="gallery-item tall"><div>Imagem 05</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contato">
+      <div class="container cta-inner">
+        <div>
+          <span class="eyebrow">ENTRE EM CONTATO</span>
+          <h2>Vamos construir algo <em>juntos?</em></h2>
+          <p>Preencha o formulário e envie sua mensagem.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" id="name" placeholder="Seu nome" required>
+          <input type="email" id="email" placeholder="Seu e-mail" required>
+          <textarea id="message" rows="4" placeholder="Sua mensagem" required></textarea>
+          <button class="btn primary" type="submit">Enviar mensagem</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#inicio" class="logo"><span>✦</span> SOCIEDADE</a>
+        <p>Informação, comunidade e propósito.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> Sociedade. Todos os direitos reservados.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
